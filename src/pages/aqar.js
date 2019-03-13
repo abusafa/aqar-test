@@ -35,7 +35,7 @@ export const query = graphql`
   query {
   aqar {
     Web {
-      find(size: 100) {
+      find(size: 1) {
         total
         listings {
           imgs
